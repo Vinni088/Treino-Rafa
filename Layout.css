@@ -15,11 +15,15 @@ body {
     gap: 40px;
 }
 .treino-x {
+    position: relative;
     background-color: #FFFFFF;
     border: 3px solid #fafafa;
     width: 800px;
     border-radius: 20px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 60px;
     overflow-x: scroll;
 }
@@ -60,6 +64,9 @@ h1 {
 .organizador {
     width: 15%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .scroll {
     -ms-overflow-style: none;  
