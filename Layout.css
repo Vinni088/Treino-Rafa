@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+body {
+    font-family: Roboto;
+    background-color: lightgreen;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.treino-x {
+    background-color: #FFFFFF;
+    border: 3px solid #fafafa;
+    width: 80%;
+    border-radius: 20px;
+    position: relative;
+    padding-top: 60px;
+}
+.exercicio-x {
+    width: 100%;
+    height: 60px;
+    border: lightgray 2px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.exercicio-x p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+h1 {
+    position: absolute;
+    top: 15px;
+    left: 35%;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+}
+.nada {
+    color: rgba(0, 0, 0, 0);
+}
